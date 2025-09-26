@@ -91,7 +91,7 @@ CREATE TABLE
         CONSTRAINT chk_positive_capacity CHECK (capacity > 0)
     );
 
--- 5. Create bookings table (FIXED: Remove CURDATE() from CHECK constraint)
+-- 5. Create bookings table
 CREATE TABLE
     bookings (
         booking_id INT AUTO_INCREMENT PRIMARY KEY,
